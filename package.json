@@ -9,7 +9,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "tsc --noEmit && npx vite-node src/index.ts"
+    "ws": "tsc --noEmit && npx vite-node src/websocket.ts",
+    "tcp": "tsc --noEmit && npx vite-node src/tcp.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
