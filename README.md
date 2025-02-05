@@ -1,3 +1,9 @@
+# Ví dụ về SSL với Websocket & TCP
+```bash
+npm run ws # Chạy server websocket & test bằng ./__tests__/websocket.test.ts
+npm run tcp # Chạy server tcp & test bằng ./__tests__/tcp.test.ts
+```
+
 # Generate Self Signed SSL Certificate:
 
 ```bash
